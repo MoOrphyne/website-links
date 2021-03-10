@@ -47,15 +47,13 @@
   font-size: 25px;
   font-variant-caps: small-caps;
   font-weight: bold;
-}
-
-.link-button-text {
   color: white !important;
-  text-decoration: none;
-
 }
+
 .link-button:hover {
+  text-decoration: none;
   background-color: transparent;
   border: #ed925a solid 3px;
   transition: ease-out;
+  color: #ed925a !important;
 }
