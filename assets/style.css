@@ -1,0 +1,59 @@
+.normal-version {
+  width: 100%;
+  height: auto;
+  margin: 6px 0;
+  background-image: url("images/delphine_avatar.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-size: cover; */
+  background-blend-mode: multiply;
+  background-color: slategrey;
+}
+
+.round-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.round-image > img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid white;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.all-links {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.link-button {
+  width: 300px;
+  height: 60px;
+  border-radius: 100px;
+  text-align: center;
+  padding: 10px;
+  margin: 8px;
+  background-color: #ed925a;
+  font-size: 25px;
+  font-variant-caps: small-caps;
+  font-weight: bold;
+  color: white !important;
+}
+
+.link-button:hover {
+  text-decoration: none;
+  background-color: transparent;
+  border: #ed925a solid 3px;
+  transition: ease-out;
+  color: #ed925a !important;
+}
